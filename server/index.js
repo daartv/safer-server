@@ -56,10 +56,13 @@ app.post('/api/fcmToken', updateFCMToken);
 
 app.put('/api/privacySettings', updatePrivacy);
 
+<<<<<<< HEAD
 app.put('/api/coordinates', updateCoordinates);
 
 app.get('/api/test', findUserWithPhoneNumber, addSubscriptionToTable);
 
+=======
+>>>>>>> Storing user's label and last known location to their table
 let port = process.env.PORT || 1337;
 
 app.listen(port);
